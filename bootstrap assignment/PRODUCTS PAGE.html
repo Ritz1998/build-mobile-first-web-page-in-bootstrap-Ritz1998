@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>RiTz PRODUCTS</title>
+</head>
+<style>
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .side-area {
+        margin-bottom: 30px;
+    }
+
+    .side-area:last-child {
+        margin-bottom: 0px;
+    }
+
+    .product-side .side-content {
+        border-bottom: 1px solid #eee;
+    }
+
+    .product-side .side-content:last-child {
+        border-bottom: 0px;
+    }
+
+    .product-side .list {
+        border-top: 1px solid #ddd;
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+
+    .product-side .list:first-child {
+        padding-top: 0;
+        margin-top: 0;
+        border-top: 0px solid transparent;
+    }
+
+    .product-side .list li {
+        margin-bottom: 18px;
+        transition: 0.5s;
+    }
+
+    .product-side .list li a {
+        font-size: 14px;
+        font-weight: normal;
+        color: #292525;
+        position: relative;
+
+    }
+
+    .side-shadow {
+        box-shadow: 0px 10px 10px 0px rgba(153, 153, 153, 0.8);
+    }
+
+    @media (max-width: 991px) {
+        .side-title {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .side-title h3 {
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 40px;
+        position: relative;
+        background: #2d2d2e;
+        padding: 10px 15px 10px 30px;
+        text-transform: uppercase;
+   
+    }
+
+  
+    .card-img, .card-img-bottom, .card-img-top {
+        height: 150px;
+    }
+    body{
+        background-image: url(https://images.pexels.com/photos/3750272/pexels-photo-3750272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(10, 10, 10, 10)
+    }
+
+        
+      .side-title h3{
+                color: turquoise;
+      }
+      .list li a{
+          color:rgb(103, 241, 76) ;
+      }
+    
+</style>
+
+<body>
+
+    <section class="section-1 container-fluid p-0">
+        <div class="d-flex flex-column"></div>
+        <div>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img
+                                src="https://i.pinimg.com/564x/6c/49/a8/6c49a87d412081c4aaa87b3632055ded--wolf-tattoo-tribal-tattoos-tribal.jpg"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="ass5.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="PRODUCTS PAGE.html">Products</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="SERVICE PAGE1.html">Service1</a></li>
+                                        <li><a class="dropdown-item" href="SERVICE PAGE1.html">Service2</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="CONTACT.html">Contact Us</a>
+                                </li>
+
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+        </div>
+
+        <section class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div>
+                            <aside class="side-area product-side side-shadow mt-5" style="color: rgb(136, 221, 96);" >
+                                <div class="side-title">
+                                    <h3>PRODUCTS</h3>
+
+                                </div>
+                                <div class="side-content">
+                                    <ul class="list">
+                                        <p>Category</p>
+                                        <li>
+                                            <input type="radio" aria-label="radio button">
+                                            <a href="" style="color: rgb(137, 243, 95);">Arts</a>
+                                        </li>
+                                        <li>
+                                            <input type="radio" aria-label="radio button">
+                                            <a href="" style="color: rgb(137, 243, 95);">Gaming</a>
+                                        </li>
+                                        <li>
+                                            <input type="radio" aria-label="radio button">
+                                            <a href="" style="color: rgb(137, 243, 95);">Travel Essentials</a>
+                                        </li>
+                                        <li>
+                                            <input type="radio" aria-label="radio button">
+                                            <a href="" style="color: rgb(137, 243, 95);">Cars</a>
+                                        </li>
+                                        <li>
+                                            <input type="radio" aria-label="radio button">
+                                            <a href="" style="color: rgb(137, 243, 95);">Clothings</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="product-top d-flex justify-content-between align-items-center">
+                                    <div class="product-sec product-item">
+                                        <h2 class="my-5" style="color: whitesmoke;">Art Gallery</h2>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- ******cards**** -->
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <div class="card" style="width: 13rem;">
+                                        <img src="https://images.pexels.com/photos/296649/pexels-photo-296649.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product1" height="100px">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Painting</h5>
+                                          <p class="card-text">Check it out more of awesome painting.</p>
+                                          <a href="#" class="btn btn-primary">View</a>
+                                          <a href="#" class="btn btn-primary">Edit</a>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4">
+                                    <div class="card" style="width: 13rem;">
+                                        <img src="https://images.pexels.com/photos/983200/pexels-photo-983200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product2">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Textured frames</h5>
+                                          <p class="card-text">Here explore are some creative textures</p>
+                                          <a href="#" class="btn btn-primary">View</a>
+                                          <a href="#" class="btn btn-primary">Edit</a>
+                                        </div>
+                                    
+                                  </div>
+                                  </div>
+                                  <div class="col-lg-4">
+                                    <div class="card" style="width: 13rem;">
+                                        <img src="https://images.pexels.com/photos/10916/pexels-photo-10916.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product2">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Sculptures</h5>
+                                          <p class="card-text">Check out this awesome artist here</p>
+                                          <a href="#" class="btn btn-primary">View</a>
+                                          <a href="#" class="btn btn-primary">Edit</a>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                              
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="product-top d-flex justify-content-between align-items-center">
+                                            <div class="product-sec product-item">
+                                                <h2 class="my-5"style="color: whitesmoke;">Gaming</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col-lg-4">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="https://images.pexels.com/photos/7199194/pexels-photo-7199194.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product2">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Gaming Setups</h5>
+                                                  <p class="card-text">Check out these Insane RGB gaming PCs.</p>
+                                                  <a href="#" class="btn btn-primary">View</a>
+                                                  <a href="#" class="btn btn-primary">Edit</a>
+                                                </div>
+                                              </div>
+        
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="https://images.pexels.com/photos/7915357/pexels-photo-7915357.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product2">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Games</h5>
+                                                  <p class="card-text">Check out these New Open World gaming.</p>
+                                                  <a href="#" class="btn btn-primary">View</a>
+                                                  <a href="#" class="btn btn-primary">Edit</a>
+                                                </div>
+                                              </div>
+        
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product2">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Gaming Displays</h5>
+                                                  <p class="card-text">Check out these gaming super FHD Displays.</p>
+                                                  <a href="#" class="btn btn-primary">View</a>
+                                                  <a href="#" class="btn btn-primary">Edit</a>
+                                                </div>
+                                              </div>
+        
+                                          </div>
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="product-top d-flex justify-content-between align-items-center">
+                                                    <div class="product-sec product-item">
+                                                        <h2 class="my-5"style="color: whitesmoke;">Travel Essentials</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row">
+                                                  <div class="col-lg-4">
+                                                    <div class="card" style="width: 13rem;">
+                                                        <img src="https://images.pexels.com/photos/3943883/pexels-photo-3943883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="Product3">
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">Travelling Bags</h5>
+                                                          <p class="card-text">Choose best suitable travelling bags for you.</p>
+                                                          <a href="#" class="btn btn-primary">View</a>
+                                                          <a href="#" class="btn btn-primary">Edit</a>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-lg-4">
+                                                    <div class="card" style="width: 13rem;">
+                                                        <img src="https://images.pexels.com/photos/2496880/pexels-photo-2496880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product3">
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">Tents</h5>
+                                                          <p class="card-text">Choose Best camping stuff for your adventure</p>
+                                                          <a href="#" class="btn btn-primary">View</a>
+                                                          <a href="#" class="btn btn-primary">Edit</a>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-lg-4">
+                                                    <div class="card" style="width: 13rem;">
+                                                        <img src="https://images.pexels.com/photos/3178938/pexels-photo-3178938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="product3">
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">Travel Essentials</h5>
+                                                          <p class="card-text">Essentials you should never forget to pack.</p>
+                                                          <a href="#" class="btn btn-primary">View</a>
+                                                          <a href="#" class="btn btn-primary">Edit</a>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                        
+                                      </div>
+
+                                    
+                                </div>
+                            </div>
+    </section>
+</body>
+
+</html>
